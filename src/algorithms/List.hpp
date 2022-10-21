@@ -1,0 +1,20 @@
+#ifndef LIST_HPP
+#define LIST_HPP
+
+#include <algorithm>
+
+namespace List {
+    // find index of item in vector (list)
+    template<typename T>
+    int getIndexOf(std::vector<T> v, T x) {
+        return std::find(v.begin(), v.end(), x) - v.begin();
+    }
+
+    // Test if list contains item
+    template<typename T>
+    bool contains(std::vector<T> v, T x) {
+        return std::find(v.begin(), v.end(), x) != v.end();
+    }
+}
+
+#endif //LIST_HPP
