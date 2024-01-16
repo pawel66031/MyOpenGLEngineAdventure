@@ -8,6 +8,8 @@
 #include <string>
 #include <stack>
 
+#include <Jolt/Jolt.h>
+
 #include <glm/glm.hpp>
 
 #include "graphics/Shader.hpp"

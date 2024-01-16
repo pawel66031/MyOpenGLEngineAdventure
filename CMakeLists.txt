@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.5.0)
 
 get_filename_component(PROJECT_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
-project(MyOpenGLAdventure)
+project(JoltIntergration)
 
 set (PROJECT_MAJOR 0)
 set (PROJECT_MINOR 0)
@@ -42,6 +42,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL FreeBSD)
   set(CMAKE_REQUIRED_INCLUDES /usr/local/include)
 endif()
       
+add_subdirectory(JoltPhysics/Build)
 
 # include_directories(${MyOpenGLAdventure_SOURCE_DIR}/include
 #                     /usr/local/include/stb/stb_image.h
