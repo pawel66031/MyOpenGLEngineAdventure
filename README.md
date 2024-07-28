@@ -9,5 +9,4 @@ Some libraries needs to be included in order to run engine:
 * STB - loads textures for 3D model
 
 ## Screenshots
-![Screenshot 1](readme-src/screenshot1.png)
-![Screenshot 2](readme-src/screenshot2.png)
+![Screenshot 1](readme-src/screenshot2.png)
